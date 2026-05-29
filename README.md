@@ -46,14 +46,14 @@
 
   <!-- Gothic cathedral silhouette -->
   <path d="M0,300 L0,260 L20,260 L20,220 L30,220 L30,260 L50,260 L50,210 L60,210 L60,260 L80,260 L80,230 L90,230 L90,260 L110,260 L110,190 L120,190 L120,260 L140,260 L140,250 L150,250 L150,260 L170,260 L170,200 L185,200 L185,260 L200,260 L200,240 L210,240 L210,260 L230,260 L230,180 L250,180 L250,260 L270,260 L270,220 L285,220 L285,260 L300,260 L300,240 L310,240 L310,260 L330,260 L330,210 L350,210 L350,260 L370,260 L370,230 L385,230 L385,260 L400,260 L400,190 L420,190 L420,260 L440,260 L440,250 L450,250 L450,260 L470,260 L470,200 L485,200 L485,260 L500,260 L500,240 L510,240 L510,260 L530,260 L530,180 L550,180 L550,260 L570,260 L570,220 L585,220 L585,260 L600,260 L600,240 L610,240 L610,260 L630,260 L630,210 L650,210 L650,260 L670,260 L670,230 L685,230 L685,260 L700,260 L700,250 L710,250 L710,260 L730,260 L730,190 L750,190 L750,260 L770,260 L770,220 L785,220 L785,260 L800,260 L800,300 Z" fill="#150f1a" opacity="0.9" />
-  <!-- Cathedral windows (glowing) -->
-  <circle cx="60" cy="220" r="4" fill="#8b0000" opacity="0.8">
+  <!-- Cathedral windows (glowing purple) -->
+  <circle cx="60" cy="220" r="4" fill="#800080" opacity="0.8">
     <animate attributeName="opacity" values="0.5;1;0.5" dur="3s" repeatCount="indefinite" />
   </circle>
-  <circle cx="350" cy="210" r="4" fill="#8b0000" opacity="0.8">
+  <circle cx="350" cy="210" r="4" fill="#800080" opacity="0.8">
     <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite" begin="0.5s" />
   </circle>
-  <circle cx="550" cy="180" r="4" fill="#8b0000" opacity="0.8">
+  <circle cx="550" cy="180" r="4" fill="#800080" opacity="0.8">
     <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.5s" repeatCount="indefinite" begin="1s" />
   </circle>
 
@@ -101,8 +101,8 @@
 
   <!-- Title text with glitch effect -->
   <g filter="url(#intenseGlow)">
-    <!-- Glitch layer red -->
-    <text x="400" y="140" text-anchor="middle" font-size="80" font-family="monospace" fill="#ff0040" opacity="0.8">
+    <!-- Glitch layer magenta -->
+    <text x="400" y="140" text-anchor="middle" font-size="80" font-family="monospace" fill="#FF00FF" opacity="0.8">
       xvolD
       <animate attributeName="opacity" values="0;0.8;0;0;0.8;0" dur="2s" repeatCount="indefinite" keyTimes="0;0.1;0.2;0.7;0.8;1" />
       <animateTransform attributeName="transform" type="translate" values="0,0;-3,-2;0,0;0,0;-3,2;0,0" dur="2s" repeatCount="indefinite" keyTimes="0;0.1;0.2;0.7;0.8;1" additive="sum" />
@@ -121,25 +121,25 @@
   </g>
 
   <!-- Subtitle -->
-  <text x="400" y="180" text-anchor="middle" font-size="22" font-family="monospace" fill="#8b0000" opacity="0.9">
+  <text x="400" y="180" text-anchor="middle" font-size="22" font-family="monospace" fill="#800080" opacity="0.9">
     <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" repeatCount="indefinite" />
     ⚰️ Enter the Abyss ⚰️
   </text>
 
   <!-- Floating particles -->
-  <circle cx="100" cy="150" r="1.5" fill="#8b0000">
+  <circle cx="100" cy="150" r="1.5" fill="#800080">
     <animate attributeName="cy" values="150;130;150" dur="6s" repeatCount="indefinite" />
     <animate attributeName="opacity" values="0;1;0" dur="6s" repeatCount="indefinite" />
   </circle>
-  <circle cx="300" cy="180" r="1" fill="#ff0040">
+  <circle cx="300" cy="180" r="1" fill="#FF00FF">
     <animate attributeName="cy" values="180;160;180" dur="5s" repeatCount="indefinite" begin="1s" />
     <animate attributeName="opacity" values="0;1;0" dur="5s" repeatCount="indefinite" begin="1s" />
   </circle>
-  <circle cx="550" cy="120" r="1.5" fill="#00ffff">
+  <circle cx="550" cy="120" r="1.5" fill="#DDA0DD">
     <animate attributeName="cy" values="120;100;120" dur="7s" repeatCount="indefinite" begin="2s" />
     <animate attributeName="opacity" values="0;1;0" dur="7s" repeatCount="indefinite" begin="2s" />
   </circle>
-  <circle cx="700" cy="160" r="1" fill="#8b0000">
+  <circle cx="700" cy="160" r="1" fill="#800080">
     <animate attributeName="cy" values="160;140;160" dur="4.5s" repeatCount="indefinite" begin="0.5s" />
     <animate attributeName="opacity" values="0;1;0" dur="4.5s" repeatCount="indefinite" begin="0.5s" />
   </circle>
@@ -148,9 +148,9 @@
 <br>
 
 <!-- About Section -->
-<h2 style="color: #8b0000;">🕯️ 𝔄𝔟𝔬𝔲𝔱 𝔱𝔥𝔢 𝔈𝔫𝔱𝔦𝔱𝔶</h2>
+<h2 style="color: #800080;">🕯️ 𝔄𝔟𝔬𝔲𝔱 𝔱𝔥𝔢 𝔈𝔫𝔱𝔦𝔱𝔶</h2>
 <p style="max-width: 600px; margin: auto; color: #ccc; font-size: 16px; line-height: 1.6;">
-  Welcome, wanderer... I am <strong style="color: #ff0040;">xvolD</strong>, a denizen of the digital shadows.<br>
+  Welcome, wanderer... I am <strong style="color: #FF00FF;">xvolD</strong>, a denizen of the digital shadows.<br>
   Code necromancer, architect of the arcane, weaving spells in silicon and logic.<br>
   By candlelight I craft my grimories of software, ever seeking the next forbidden commit.
 </p>
@@ -158,37 +158,37 @@
 <br>
 
 <!-- Grimoire of Skills -->
-<h2 style="color: #8b0000;">📜 𝔊𝔯𝔦𝔪𝔬𝔦𝔯𝔢 𝔬𝔣 𝔖𝔨𝔦𝔩𝔩𝔰</h2>
+<h2 style="color: #800080;">📜 𝔊𝔯𝔦𝔪𝔬𝔦𝔯𝔢 𝔬𝔣 𝔖𝔨𝔦𝔩𝔩𝔰</h2>
 <p style="color: #aaa;">Languages and tools I commune with:</p>
-<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=darkred&labelColor=0a0a0a&color=8b0000" />
-<img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=darkred&labelColor=0a0a0a&color=8b0000" />
-<img src="https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=cplusplus&logoColor=darkred&labelColor=0a0a0a&color=8b0000" />
+<img src="https://img.shields.io/badge/Python-000000?style=for-the-badge&logo=python&logoColor=purple&labelColor=0a0a0a&color=800080" />
+<img src="https://img.shields.io/badge/JavaScript-000000?style=for-the-badge&logo=javascript&logoColor=purple&labelColor=0a0a0a&color=800080" />
+<img src="https://img.shields.io/badge/C++-000000?style=for-the-badge&logo=cplusplus&logoColor=purple&labelColor=0a0a0a&color=800080" />
 <br>
-<img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=darkred&labelColor=0a0a0a&color=8b0000" />
-<img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=darkred&labelColor=0a0a0a&color=8b0000" />
-<img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=darkred&labelColor=0a0a0a&color=8b0000" />
+<img src="https://img.shields.io/badge/Docker-000000?style=for-the-badge&logo=docker&logoColor=purple&labelColor=0a0a0a&color=800080" />
+<img src="https://img.shields.io/badge/Linux-000000?style=for-the-badge&logo=linux&logoColor=purple&labelColor=0a0a0a&color=800080" />
+<img src="https://img.shields.io/badge/Git-000000?style=for-the-badge&logo=git&logoColor=purple&labelColor=0a0a0a&color=800080" />
 
 <br><br>
 
 <!-- Stats & Curses -->
-<h2 style="color: #8b0000;">📊 𝔖𝔱𝔞𝔱𝔰 & ℭ𝔲𝔯𝔰𝔢𝔰</h2>
+<h2 style="color: #800080;">📊 𝔖𝔱𝔞𝔱𝔰 & ℭ𝔲𝔯𝔰𝔢𝔰</h2>
 <div style="display: flex; justify-content: center; gap: 10px; flex-wrap: wrap;">
-  <img height="150" src="https://github-readme-stats.vercel.app/api?username=xvolD&show_icons=true&theme=dark&title_color=8b0000&text_color=ccc&icon_color=8b0000&bg_color=0d1117&hide_border=true&count_private=true" />
-  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xvolD&layout=compact&theme=dark&title_color=8b0000&text_color=ccc&bg_color=0d1117&hide_border=true" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api?username=xvolD&show_icons=true&theme=dark&title_color=800080&text_color=ccc&icon_color=800080&bg_color=0d1117&hide_border=true&count_private=true" />
+  <img height="150" src="https://github-readme-stats.vercel.app/api/top-langs/?username=xvolD&layout=compact&theme=dark&title_color=800080&text_color=ccc&bg_color=0d1117&hide_border=true" />
 </div>
 
 <br>
 
 <!-- Visitor Counter -->
-<img src="https://komarev.com/ghpvc/?username=xvolD&style=flat-square&color=8b0000&label=👁️‍🗨️+Souls+Witnessed" />
+<img src="https://komarev.com/ghpvc/?username=xvolD&style=flat-square&color=800080&label=👁️‍🗨️+Souls+Witnessed" />
 
 <br><br>
 
 <!-- Collapsible Prophecy -->
 <details style="color: #aaa; max-width: 600px; margin: auto;">
-  <summary style="color: #8b0000; font-size: 18px; cursor: pointer;">🔮 Unveil the Prophecy...</summary>
+  <summary style="color: #800080; font-size: 18px; cursor: pointer;">🔮 Unveil the Prophecy...</summary>
   <br>
-  <p style="font-style: italic; background: #111; padding: 15px; border-left: 3px solid #8b0000; border-radius: 0 8px 8px 0;">
+  <p style="font-style: italic; background: #111; padding: 15px; border-left: 3px solid #800080; border-radius: 0 8px 8px 0;">
     "In the digital void, whispers of code become eternal.<br>
     From the depths of the terminal, xvolD rises, cloaked in shadow and semicolons.<br>
     The stars align, the repositories awaken... prepare for the pull request of destiny."
@@ -198,9 +198,9 @@
 <br>
 
 <!-- Summon Me -->
-<h2 style="color: #8b0000;">🕸️ 𝔖𝔲𝔪𝔪𝔬𝔫 𝔐𝔢</h2>
-<a href="https://github.com/xvolD"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=darkred&labelColor=0a0a0a&color=8b0000" /></a>
-<a href="#"><img src="https://img.shields.io/badge/Email-darkred?style=for-the-badge&logo=gmail&logoColor=black&labelColor=0a0a0a&color=8b0000" /></a>
+<h2 style="color: #800080;">🕸️ 𝔖𝔲𝔪𝔪𝔬𝔫 𝔐𝔢</h2>
+<a href="https://github.com/xvolD"><img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=purple&labelColor=0a0a0a&color=800080" /></a>
+<a href="#"><img src="https://img.shields.io/badge/Email-800080?style=for-the-badge&logo=gmail&logoColor=black&labelColor=0a0a0a&color=800080" /></a>
 
 <br><br>
 <p style="font-size: 12px; color: #555;">⚰️ «What is dead may never die, but rises again, harder and stronger.» ⚰️</p>
